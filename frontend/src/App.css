@@ -1,0 +1,19 @@
+.hcontainer {
+  display: flex;
+  flex-direction: row; /* or column if needed */
+  justify-content: center; /* horizontal alignment */
+  align-items: center; /* vertical alignment */
+  flex: 1 1 auto; /* grow and shrink to fill available space */
+  min-height: 0; /* important for nested flex to prevent overflow */
+  min-width: 0; /* optional, prevents horizontal overflow */
+}
+
+.vcontainer {
+  display: flex;
+  flex-direction: column; /* or column if needed */
+  justify-content: center; /* horizontal alignment */
+  align-items: center; /* vertical alignment */
+  flex: 1 1 auto; /* grow and shrink to fill available space */
+  min-height: 0; /* important for nested flex to prevent overflow */
+  min-width: 0; /* optional, prevents horizontal overflow */
+}
